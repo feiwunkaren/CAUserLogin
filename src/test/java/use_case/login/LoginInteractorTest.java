@@ -111,7 +111,7 @@ public class LoginInteractorTest {
             @Override
             public void prepareSuccessView(LoginOutputData user) {
                 assertEquals("Paul", user.getUsername());
-                assertEquals("Paul", userRepository.getCurrentUser()); // Update to check "Paul" is the current user
+                assertEquals("Paul", userRepository.getCurrentUser());
             }
 
             @Override
